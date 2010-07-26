@@ -1,0 +1,12 @@
+
+Author: Bill Chapman
+Name: Ruby PS
+Version: 0.1
+Description: Some process management helpers for ruby based systems
+
+Usage:
+
+ ps.initialize(:irb)  #find all processes with irb in the ps output row
+ ps.kill_if{ |row| row[:mem].to_f > 800.0} #kill all processes in the ps recordset that are greater than 800mb
+ -- OR --
+ PS.kill_if(:irb){ |row| row[:mem].to_f > 800.0 }
