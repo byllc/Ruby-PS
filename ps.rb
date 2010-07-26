@@ -1,7 +1,7 @@
 ##
 # Author: Bill Chapman
 # Name: Ruby PS
-# Description: Some process management helpers for ruby based systems
+# Description: Some process management helpers for linux based systems
 # Usage:
 #
 #  ps.initialize(:irb)  #find all processes with irb in the ps output row
