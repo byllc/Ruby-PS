@@ -1,8 +1,7 @@
-
 Author: Bill Chapman
 Name: Ruby PS
 Version: 0.1
-Description: Some process management helpers for ruby based systems
+Description: Some process management helpers for linux based systems
 
 Usage:
 
